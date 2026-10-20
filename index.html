@@ -1,0 +1,1176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verde & Saffron - Gourmet Kitchen & Fresh Organic Eatery</title>
+    <!-- Bootstrap 5.3 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom Yellow & Green Theme CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbarMain" data-bs-offset="100">
+
+
+
+    <!-- discount Section -->
+    <div
+      class="promo-bar py-2 text-center text-dark fw-semibold small bg-warning"
+    >
+      <div
+        class="container d-flex justify-content-center align-items-center gap-2"
+      >
+        <span
+          >🎉 Special Offer: Use coupon code
+          <strong class="badge bg-dark text-warning">Khaidai25</strong> for 25%
+          OFF on your first order!</span
+        >
+      </div>
+    </div>
+    <!-- discount Section -->
+
+
+
+    <!-- Navbar Section -->
+    <nav
+      id="navbarMain"
+      class="navbar navbar-expand-lg sticky-top bg-white shadow-sm py-3"
+    >
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+          <span
+            class="brand-badge bg-success text-warning rounded-circle d-flex align-items-center justify-content-center"
+          >
+            <span class="fw-bold">𓌉◯𓇋</span>
+          </span>
+          <span class="fw-bolder brand-text fs-4 text-dark">
+            <h3 class="text-success">Khaidai</h3>
+        </a>
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-semibold">
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#features">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#menu">Our Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#specials">Chef Specials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#reservation">Book Table</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <div class="d-flex align-items-center gap-3">
+            <button
+              class="btn btn-outline-success position-relative rounded-pill px-3 py-2"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#cartOffcanvas"
+            >
+              <i class="bi bi-bag-check-fill me-1"></i> Cart
+              <span
+                id="cartCountBadge"
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+              >
+                0
+              </span>
+            </button>
+            <a
+              href="#reservation"
+              class="btn btn-success rounded-pill px-4 py-2 fw-semibold"
+            >
+              Reserve Table
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Section -->
+
+
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="hero-section py-5 position-relative overflow-hidden"
+    >
+      <div class="container py-lg-4">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div
+              class="badge bg-success-subtle text-success border border-success-subtle px-3 py-2 rounded-pill fw-semibold mb-3"
+            >
+              <i class="bi bi-stars text-warning me-1"></i> 100% Farm-Fresh &
+              Organic Harvest
+            </div>
+            <h1 class="display-4 fw-extrabold hero-title text-dark mb-3">
+              Taste the Sunshine. Savor the Greens.
+            </h1>
+            <p class="lead text-muted mb-4">
+              Artisan recipes crafted from 100% farm-fresh organic harvest,
+              melted golden cheeses, and sun-kissed herbs. Delivered piping hot
+              to your table in 30 minutes.
+            </p>
+
+            <div class="d-flex flex-wrap gap-3 mb-4">
+              <a
+                href="#menu"
+                class="btn btn-warning btn-lg rounded-pill px-4 py-3 fw-bold shadow-sm"
+              >
+                <i class="bi bi-cart3 me-1"></i> Order Now
+              </a>
+              <a
+                href="#reservation"
+                class="btn btn-outline-success btn-lg rounded-pill px-4 py-3 fw-semibold"
+              >
+                <i class="bi bi-calendar2-check me-1"></i> Book a Table
+              </a>
+            </div>
+
+            <div class="d-flex align-items-center gap-4 pt-3 border-top">
+              <div class="d-flex align-items-center gap-2">
+                <div
+                  class="rating-box bg-warning text-dark p-2 rounded-3 fw-bold"
+                >
+                  ★ 4.9
+                </div>
+                <div class="small">
+                  <div class="fw-bold text-dark">14,200+ Reviews</div>
+                  <div class="text-muted">Top Rated Kitchen</div>
+                </div>
+              </div>
+              <div class="vr"></div>
+              <div class="small">
+                <div class="fw-bold text-success">
+                  <i class="bi bi-clock-history me-1"></i> 25-35 Min
+                </div>
+                <div class="text-muted">Fast Eco Delivery</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 text-center">
+            <div class="hero-image-card position-relative d-inline-block">
+              <img
+                src="images/hero-food.jpg"
+                class="img-fluid rounded-4 shadow-lg hero-main-img"
+                alt="Gourmet Dish"
+              />
+
+              <!-- Floating Highlights -->
+              <div
+                class="floating-badge badge-top-left bg-white shadow p-3 rounded-4 text-start"
+              >
+                <div class="d-flex align-items-center gap-2">
+                  <span class="bg-success text-white p-2 rounded-circle"
+                    ><i class="bi bi-patch-check"></i
+                  ></span>
+                  <div>
+                    <div class="fw-bold small text-dark">100% Pure Organic</div>
+                    <div class="text-muted smaller">
+                      Direct from Local Farms
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="floating-badge badge-bottom-right bg-dark text-white shadow p-3 rounded-4 text-start"
+              >
+                <div class="d-flex align-items-center gap-3">
+                  <div class="fw-bolder fs-4 text-warning">$13.99</div>
+                  <div>
+                    <div class="fw-bold small">Golden Smash Burger</div>
+                    <div class="text-warning small">★ 4.9 Chef Pick</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section -->
+
+
+
+    <!-- Features Strip Section -->
+    <section id="features" class="features-section py-5 bg-light">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="feature-box p-4 rounded-4 bg-white shadow-sm h-100 text-center"
+            >
+              <div class="feature-icon mb-3 text-success fs-1">
+                <i class="bi bi-flower1"></i>
+              </div>
+              <h5 class="fw-bold text-dark">100% Fresh Greens</h5>
+              <p class="text-muted small mb-0">
+                Direct from local organic growers every morning without
+                preservatives.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="feature-box p-4 rounded-4 bg-white shadow-sm h-100 text-center"
+            >
+              <div class="feature-icon mb-3 text-warning fs-1">
+                <i class="bi bi-fire"></i>
+              </div>
+              <h5 class="fw-bold text-dark">Artisan Wood Hearth</h5>
+              <p class="text-muted small mb-0">
+                Slow-crafted stone cooking with saffron and natural aroma
+                perfection.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="feature-box p-4 rounded-4 bg-white shadow-sm h-100 text-center"
+            >
+              <div class="feature-icon mb-3 text-success fs-1">
+                <i class="bi bi-bicycle"></i>
+              </div>
+              <h5 class="fw-bold text-dark">30-Min Fast Delivery</h5>
+              <p class="text-muted small mb-0">
+                Thermal eco-bikes ensure every order arrives sizzling hot and
+                fresh.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div
+              class="feature-box p-4 rounded-4 bg-white shadow-sm h-100 text-center"
+            >
+              <div class="feature-icon mb-3 text-warning fs-1">
+                <i class="bi bi-shield-check"></i>
+              </div>
+              <h5 class="fw-bold text-dark">Certified Clean</h5>
+              <p class="text-muted small mb-0">
+                Hospital-grade sanitized kitchen, transparent prep & 100% halal
+                meats.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features Strip Section -->
+
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section py-5">
+      <div class="container">
+        <div class="text-center max-w-xl mx-auto mb-5">
+          <span
+            class="badge bg-warning text-dark px-3 py-2 rounded-pill fw-bold mb-2"
+            >Our Delicious Menu</span
+          >
+          <h2 class="display-5 fw-bold text-dark">
+            Taste The Golden & Green Creation
+          </h2>
+          <p class="text-muted">
+            Browse our handcrafted dishes prepared with vibrant organic
+            ingredients and golden spices.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="d-flex justify-content-center flex-wrap gap-2 mb-5">
+          <button
+            class="btn btn-success rounded-pill px-4 py-2 category-filter-btn"
+            data-filter="all"
+          >
+            All Dishes
+          </button>
+
+          <button
+            class="btn btn-outline-success rounded-pill px-4 py-2 category-filter-btn"
+            data-filter="bowls"
+          >
+            Green Bowls
+          </button>
+
+          <button
+            class="btn btn-outline-success rounded-pill px-4 py-2 category-filter-btn"
+            data-filter="burgers"
+          >
+            Artisan Burgers
+          </button>
+
+          <button
+            class="btn btn-outline-success rounded-pill px-4 py-2 category-filter-btn"
+            data-filter="pizzas"
+          >
+            Wood-Fired Pizzas
+          </button>
+
+          <button
+            class="btn btn-outline-success rounded-pill px-4 py-2 category-filter-btn"
+            data-filter="pastas"
+          >
+            Fresh Pastas
+          </button>
+        </div>
+        <!-- Filter Tabs -->
+
+        <!-- Food Grid -->
+        <div class="row g-4" id="foodGrid">
+          <div class="col-lg-4 col-md-6 food-item" data-category="burgers">
+            <div class="card food-card h-100 shadow-sm border-0">
+              <div class="food-img-wrapper position-relative overflow-hidden">
+                <img
+                  src="images/hero-food.jpg"
+                  class="card-img-top food-image"
+                  alt="Golden Saffron Double Smash Burger"
+                  onerror="this.src = 'images/hero-food.jpg'"
+                />
+                <span
+                  class="badge position-absolute top-0 end-0 m-3 px-3 py-2 rounded-pill bg-warning text-dark fw-bold"
+                >
+                  $13.99
+                </span>
+                <span
+                  class="badge position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill bg-success text-white"
+                >
+                  Artisan Burgers
+                </span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-2"
+                >
+                  <div class="rating text-warning small">
+                    <i class="bi bi-star-fill"></i> 4.9
+                    <span class="text-muted">(320+)</span>
+                  </div>
+                  <div class="calories small text-muted">
+                    <i class="bi bi-fire text-danger"></i> 680 kcal
+                  </div>
+                </div>
+                <h5 class="card-title fw-bold text-dark mb-1">
+                  Golden Saffron Double Smash Burger
+                </h5>
+                <p class="card-text text-muted small flex-grow-1">
+                  Two prime Angus patties, melting sharp golden cheddar, crisp
+                  emerald butterhead lettuce, caramelized onions, and secret
+                  saffron garlic aioli on a toasted brioche bun.
+                </p>
+
+                <div
+                  class="d-flex justify-content-between align-items-center mt-3 pt-3 border-top"
+                >
+                  <div class="price">
+                    <span class="fs-4 fw-bolder text-success">$13.99</span>
+                    <span
+                      class="text-decoration-line-through text-muted ms-2 small"
+                      >$16.99</span
+                    >
+                  </div>
+                  <button
+                    class="btn btn-warning fw-bold px-3 py-2 rounded-pill add-to-cart-btn"
+                    data-id="food-1"
+                    data-name="Golden Saffron Double Smash Burger"
+                    data-price="13.99"
+                    data-img="images/hero-food.jpg"
+                  >
+                    <i class="bi bi-cart-plus me-1"></i> Order Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 food-item" data-category="bowls">
+            <div class="card food-card h-100 shadow-sm border-0">
+              <div class="food-img-wrapper position-relative overflow-hidden">
+                <img
+                  src="images/avocado-salad.jpg"
+                  class="card-img-top food-image"
+                  alt="Verde Green Goddess Harvest Bowl"
+                  onerror="this.src = 'images/hero-food.jpg'"
+                />
+                <span
+                  class="badge position-absolute top-0 end-0 m-3 px-3 py-2 rounded-pill bg-warning text-dark fw-bold"
+                >
+                  $12.50
+                </span>
+                <span
+                  class="badge position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill bg-success text-white"
+                >
+                  Green Bowls
+                </span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-2"
+                >
+                  <div class="rating text-warning small">
+                    <i class="bi bi-star-fill"></i> 4.8
+                    <span class="text-muted">(245+)</span>
+                  </div>
+                  <div class="calories small text-muted">
+                    <i class="bi bi-fire text-danger"></i> 420 kcal
+                  </div>
+                </div>
+                <h5 class="card-title fw-bold text-dark mb-1">
+                  Verde Green Goddess Harvest Bowl
+                </h5>
+                <p class="card-text text-muted small flex-grow-1">
+                  Fresh Hass avocado slices, steamed organic edamame, baby
+                  spinach, roasted sweet corn, yellow cherry tomatoes, toasted
+                  pumpkin seeds, and zesty herb-lemon vinaigrette.
+                </p>
+
+                <div
+                  class="d-flex justify-content-between align-items-center mt-3 pt-3 border-top"
+                >
+                  <div class="price">
+                    <span class="fs-4 fw-bolder text-success">$12.50</span>
+                    <span
+                      class="text-decoration-line-through text-muted ms-2 small"
+                      >$14.50</span
+                    >
+                  </div>
+                  <button
+                    class="btn btn-warning fw-bold px-3 py-2 rounded-pill add-to-cart-btn"
+                    data-id="food-2"
+                    data-name="Verde Green Goddess Harvest Bowl"
+                    data-price="12.5"
+                    data-img="images/avocado-salad.jpg"
+                  >
+                    <i class="bi bi-cart-plus me-1"></i> Order Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 food-item" data-category="pizzas">
+            <div class="card food-card h-100 shadow-sm border-0">
+              <div class="food-img-wrapper position-relative overflow-hidden">
+                <img
+                  src="images/artisan-pizza.jpg"
+                  class="card-img-top food-image"
+                  alt="Sun-Kissed Neapolitan Margherita Pizza"
+                  onerror="this.src = 'images/hero-food.jpg'"
+                />
+                <span
+                  class="badge position-absolute top-0 end-0 m-3 px-3 py-2 rounded-pill bg-warning text-dark fw-bold"
+                >
+                  $15.99
+                </span>
+                <span
+                  class="badge position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill bg-success text-white"
+                >
+                  Wood-Fired Pizzas
+                </span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-2"
+                >
+                  <div class="rating text-warning small">
+                    <i class="bi bi-star-fill"></i> 4.9
+                    <span class="text-muted">(410+)</span>
+                  </div>
+                  <div class="calories small text-muted">
+                    <i class="bi bi-fire text-danger"></i> 780 kcal
+                  </div>
+                </div>
+                <h5 class="card-title fw-bold text-dark mb-1">
+                  Sun-Kissed Neapolitan Margherita Pizza
+                </h5>
+                <p class="card-text text-muted small flex-grow-1">
+                  Slow-fermented artisan dough with blistered crust, rich San
+                  Marzano tomato sauce, fresh buffalo mozzarella, fragrant green
+                  basil, yellow heirloom tomatoes, and virgin olive oil.
+                </p>
+
+                <div
+                  class="d-flex justify-content-between align-items-center mt-3 pt-3 border-top"
+                >
+                  <div class="price">
+                    <span class="fs-4 fw-bolder text-success">$15.99</span>
+                    <span
+                      class="text-decoration-line-through text-muted ms-2 small"
+                      >$18.50</span
+                    >
+                  </div>
+                  <button
+                    class="btn btn-warning fw-bold px-3 py-2 rounded-pill add-to-cart-btn"
+                    data-id="food-3"
+                    data-name="Sun-Kissed Neapolitan Margherita Pizza"
+                    data-price="15.99"
+                    data-img="images/artisan-pizza.jpg"
+                  >
+                    <i class="bi bi-cart-plus me-1"></i> Order Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 food-item" data-category="pastas">
+            <div class="card food-card h-100 shadow-sm border-0">
+              <div class="food-img-wrapper position-relative overflow-hidden">
+                <img
+                  src="images/chef-pasta.jpg"
+                  class="card-img-top food-image"
+                  alt="Artisan Basil Pesto & Herb Chicken Fettuccine"
+                  onerror="this.src = 'images/hero-food.jpg'"
+                />
+                <span
+                  class="badge position-absolute top-0 end-0 m-3 px-3 py-2 rounded-pill bg-warning text-dark fw-bold"
+                >
+                  $14.99
+                </span>
+                <span
+                  class="badge position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill bg-success text-white"
+                >
+                  Fresh Pesto Pastas
+                </span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-2"
+                >
+                  <div class="rating text-warning small">
+                    <i class="bi bi-star-fill"></i> 4.9
+                    <span class="text-muted">(198+)</span>
+                  </div>
+                  <div class="calories small text-muted">
+                    <i class="bi bi-fire text-danger"></i> 610 kcal
+                  </div>
+                </div>
+                <h5 class="card-title fw-bold text-dark mb-1">
+                  Artisan Basil Pesto & Herb Chicken Fettuccine
+                </h5>
+                <p class="card-text text-muted small flex-grow-1">
+                  Fresh hand-rolled fettuccine pasta tossed in vibrant Genoese
+                  basil-pine nut pesto, tender grilled lemon herb chicken
+                  breast, golden roasted yellow peppers, and
+                  Parmigiano-Reggiano.
+                </p>
+
+                <div
+                  class="d-flex justify-content-between align-items-center mt-3 pt-3 border-top"
+                >
+                  <div class="price">
+                    <span class="fs-4 fw-bolder text-success">$14.99</span>
+                    <span
+                      class="text-decoration-line-through text-muted ms-2 small"
+                      >$17.50</span
+                    >
+                  </div>
+                  <button
+                    class="btn btn-warning fw-bold px-3 py-2 rounded-pill add-to-cart-btn"
+                    data-id="food-4"
+                    data-name="Artisan Basil Pesto & Herb Chicken Fettuccine"
+                    data-price="14.99"
+                    data-img="images/chef-pasta.jpg"
+                  >
+                    <i class="bi bi-cart-plus me-1"></i> Order Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 food-item" data-category="burgers">
+            <div class="card food-card h-100 shadow-sm border-0">
+              <div class="food-img-wrapper position-relative overflow-hidden">
+                <img
+                  src="images/hero-food.jpg"
+                  class="card-img-top food-image"
+                  alt="Avocado Truffle & Halloumi Brioche"
+                  onerror="this.src = 'images/hero-food.jpg'"
+                />
+                <span
+                  class="badge position-absolute top-0 end-0 m-3 px-3 py-2 rounded-pill bg-warning text-dark fw-bold"
+                >
+                  $13.50
+                </span>
+                <span
+                  class="badge position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill bg-success text-white"
+                >
+                  Artisan Burgers
+                </span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-2"
+                >
+                  <div class="rating text-warning small">
+                    <i class="bi bi-star-fill"></i> 4.7
+                    <span class="text-muted">(165+)</span>
+                  </div>
+                  <div class="calories small text-muted">
+                    <i class="bi bi-fire text-danger"></i> 550 kcal
+                  </div>
+                </div>
+                <h5 class="card-title fw-bold text-dark mb-1">
+                  Avocado Truffle & Halloumi Brioche
+                </h5>
+                <p class="card-text text-muted small flex-grow-1">
+                  Seared golden halloumi cheese block, smashed Hass avocado,
+                  arugula, yellow tomato chutney, and white truffle dressing in
+                  warm butter toasted brioche.
+                </p>
+
+                <div
+                  class="d-flex justify-content-between align-items-center mt-3 pt-3 border-top"
+                >
+                  <div class="price">
+                    <span class="fs-4 fw-bolder text-success">$13.50</span>
+                  </div>
+                  <button
+                    class="btn btn-warning fw-bold px-3 py-2 rounded-pill add-to-cart-btn"
+                    data-id="food-5"
+                    data-name="Avocado Truffle & Halloumi Brioche"
+                    data-price="13.5"
+                    data-img="images/hero-food.jpg"
+                  >
+                    <i class="bi bi-cart-plus me-1"></i> Order Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 food-item" data-category="bowls">
+            <div class="card food-card h-100 shadow-sm border-0">
+              <div class="food-img-wrapper position-relative overflow-hidden">
+                <img
+                  src="images/avocado-salad.jpg"
+                  class="card-img-top food-image"
+                  alt="Citrus Golden Quinoa & Kale Power Bowl"
+                  onerror="this.src = 'images/hero-food.jpg'"
+                />
+                <span
+                  class="badge position-absolute top-0 end-0 m-3 px-3 py-2 rounded-pill bg-warning text-dark fw-bold"
+                >
+                  $11.99
+                </span>
+                <span
+                  class="badge position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill bg-success text-white"
+                >
+                  Green Bowls
+                </span>
+              </div>
+              <div class="card-body d-flex flex-column p-4">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-2"
+                >
+                  <div class="rating text-warning small">
+                    <i class="bi bi-star-fill"></i> 4.8
+                    <span class="text-muted">(182+)</span>
+                  </div>
+                  <div class="calories small text-muted">
+                    <i class="bi bi-fire text-danger"></i> 380 kcal
+                  </div>
+                </div>
+                <h5 class="card-title fw-bold text-dark mb-1">
+                  Citrus Golden Quinoa & Kale Power Bowl
+                </h5>
+                <p class="card-text text-muted small flex-grow-1">
+                  Tuscan kale massaged with cold-pressed olive oil, warm golden
+                  Andean quinoa, cucumber ribbons, pomegranate pearls, and
+                  honey-dijon vinaigrette.
+                </p>
+
+                <div
+                  class="d-flex justify-content-between align-items-center mt-3 pt-3 border-top"
+                >
+                  <div class="price">
+                    <span class="fs-4 fw-bolder text-success">$11.99</span>
+                  </div>
+                  <button
+                    class="btn btn-warning fw-bold px-3 py-2 rounded-pill add-to-cart-btn"
+                    data-id="food-6"
+                    data-name="Citrus Golden Quinoa & Kale Power Bowl"
+                    data-price="11.99"
+                    data-img="images/avocado-salad.jpg"
+                  >
+                    <i class="bi bi-cart-plus me-1"></i> Order Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Food Grid -->
+      </div>
+    </section>
+    <!-- Menu Section -->
+
+
+    <!-- Chef Specials Bento Showcase -->
+    <section id="specials" class="specials-section py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center mb-4">
+          <div class="col-md-8">
+            <span
+              class="badge bg-success text-white px-3 py-2 rounded-pill fw-semibold mb-2"
+              >Chef's Highlights</span
+            >
+            <h2 class="fw-bold text-dark mb-0">
+              Handcrafted Signatures of the Week
+            </h2>
+          </div>
+          <div class="col-md-4 text-md-end mt-3 mt-md-0">
+            <a href="#menu" class="btn btn-outline-success rounded-pill px-4"
+              >View All Items <i class="bi bi-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div
+              class="card border-0 rounded-4 shadow-sm overflow-hidden h-100 position-relative special-banner"
+            >
+              <img
+                src="images/artisan-pizza.jpg"
+                class="card-img h-100 object-fit-cover"
+                alt="Special Pizza"
+                style="min-height: 320px"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-end p-4 text-white"
+                style="
+                  background: linear-gradient(
+                    to top,
+                    rgba(0, 0, 0, 0.85) 0%,
+                    rgba(0, 0, 0, 0.2) 60%,
+                    transparent 100%
+                  );
+                "
+              >
+                <span
+                  class="badge bg-warning text-dark align-self-start px-3 py-2 rounded-pill fw-bold mb-2"
+                  >Save 20% This Weekend</span
+                >
+                <h3 class="fw-bold">Artisan Wood-Fired Neapolitan Pizza</h3>
+                <p class="small text-white-50">
+                  Slow-fermented crust with sweet basil, heirloom yellow
+                  tomatoes & buffalo mozzarella.
+                </p>
+                <div
+                  class="d-flex align-items-center justify-content-between pt-2"
+                >
+                  <span class="fs-4 fw-bold text-warning">$15.99</span>
+                  <button
+                    class="btn btn-warning rounded-pill px-4 fw-bold add-to-cart-btn"
+                    data-id="food-3"
+                    data-name="Sun-Kissed Neapolitan Margherita Pizza"
+                    data-price="15.99"
+                    data-img="images/artisan-pizza.jpg"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div
+              class="card border-0 rounded-4 shadow-sm overflow-hidden h-100 position-relative special-banner"
+            >
+              <img
+                src="images/chef-pasta.jpg"
+                class="card-img h-100 object-fit-cover"
+                alt="Special Pasta"
+                style="min-height: 320px"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-end p-4 text-white"
+                style="
+                  background: linear-gradient(
+                    to top,
+                    rgba(0, 0, 0, 0.85) 0%,
+                    rgba(0, 0, 0, 0.2) 60%,
+                    transparent 100%
+                  );
+                "
+              >
+                <span
+                  class="badge bg-success text-white align-self-start px-3 py-2 rounded-pill fw-bold mb-2"
+                  >Customer Favorite</span
+                >
+                <h3 class="fw-bold">
+                  Artisan Basil Pesto & Herb Chicken Fettuccine
+                </h3>
+                <p class="small text-white-50">
+                  Hand-rolled pasta with Genoese pine nut pesto, grilled chicken
+                  & aged Parmigiano shavings.
+                </p>
+                <div
+                  class="d-flex align-items-center justify-content-between pt-2"
+                >
+                  <span class="fs-4 fw-bold text-warning">$14.99</span>
+                  <button
+                    class="btn btn-warning rounded-pill px-4 fw-bold add-to-cart-btn"
+                    data-id="food-4"
+                    data-name="Artisan Basil Pesto & Herb Chicken Fettuccine"
+                    data-price="14.99"
+                    data-img="images/chef-pasta.jpg"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Chef Specials Bento Showcase -->
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation-section py-5">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5">
+            <span
+              class="badge bg-warning text-dark px-3 py-2 rounded-pill fw-bold mb-2"
+              >Dine In Or Party</span
+            >
+            <h2 class="display-6 fw-bold text-dark mb-3">
+              Reserve a Gourmet Table
+            </h2>
+            <p class="text-muted mb-4">
+              Join us for an unforgettable dining experience in our garden patio
+              or warm hearth dining hall. Perfect for family dinners, dates, and
+              celebratory gatherings.
+            </p>
+
+            <div class="d-flex flex-column gap-3 mb-4">
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="bg-success-subtle text-success p-3 rounded-circle fs-5"
+                  ><i class="bi bi-geo-alt"></i
+                ></span>
+                <div>
+                  <div class="fw-bold text-dark">Address</div>
+                  <div class="text-muted small">
+                    West Dhanmondi, Dhaka-1207
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="bg-warning-subtle text-warning p-3 rounded-circle fs-5"
+                  ><i class="bi bi-telephone"></i
+                ></span>
+                <div>
+                  <div class="fw-bold text-dark">Phone</div>
+                  <div class="text-muted small">+880 1XXXX-XXXXX</div>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-3">
+                <span
+                  class="bg-success-subtle text-success p-3 rounded-circle fs-5"
+                  ><i class="bi bi-envelope"></i
+                ></span>
+                <div>
+                  <div class="fw-bold text-dark">Email</div>
+                  <div class="text-muted small">mdalifshikder22032008@gmail.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="card p-4 p-md-5 rounded-4 shadow-sm border-0 bg-white">
+              <h4 class="fw-bold text-dark mb-4">Book Your Table Online</h4>
+              <form id="reservationForm">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label small fw-semibold text-muted"
+                      >Full Name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control rounded-pill py-2 px-3"
+                      required
+                      placeholder="Your Name"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label small fw-semibold text-muted"
+                      >Phone Number</label
+                    >
+                    <input
+                      type="tel"
+                      class="form-control rounded-pill py-2 px-3"
+                      required
+                      placeholder="+880 1XXXX-XXXXX"
+                    />
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label small fw-semibold text-muted"
+                      >Guests</label
+                    >
+                    <select class="form-select rounded-pill py-2 px-3">
+                      <option value="2">2 Guests</option>
+                      <option value="4" selected>4 Guests</option>
+                      <option value="6">6 Guests</option>
+                      <option value="8">8+ Guests (Party)</option>
+                    </select>
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label small fw-semibold text-muted"
+                      >Date</label
+                    >
+                    <input
+                      type="date"
+                      class="form-control rounded-pill py-2 px-3"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-4">
+                    <label class="form-label small fw-semibold text-muted"
+                      >Time</label
+                    >
+                    <select class="form-select rounded-pill py-2 px-3">
+                      <option>12:30 PM (Lunch)</option>
+                      <option>02:00 PM</option>
+                      <option selected>09:00 PM (Dinner)</option>
+                      <option>011:30 PM</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label small fw-semibold text-muted"
+                      >Special Requests / Seating Preference</label
+                    >
+                    <textarea
+                      class="form-control rounded-4 p-3"
+                      rows="3"
+                      placeholder="e.g. Garden patio table, birthday anniversary celebration..."
+                    ></textarea>
+                  </div>
+                  <div class="col-12 mt-4">
+                    <button
+                      type="submit"
+                      class="btn btn-warning w-100 rounded-pill py-3 fw-bold text-dark shadow-sm"
+                    >
+                      <i class="bi bi-check2-circle me-1"></i> Confirm
+                      Reservation
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Reservation Section -->
+
+
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-dark text-white pt-5 pb-4">
+      <div class="container">
+        <div class="row g-4 mb-4">
+          <div class="col-lg-4">
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <span
+                class="brand-badge bg-success text-warning rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <span class="fw-bold">𓌉◯𓇋</span>
+              </span>
+              <span class="fw-bold fs-4 text-white">Khaidai</span>
+            </div>
+            <p class="text-white-50 small mb-3">
+              Gourmet Kitchen & Fresh Organic Eatery. Hand-crafted with yellow
+              warmth and emerald green freshness. Order online or book a table
+              anytime.
+            </p>
+            <div class="d-flex gap-2">
+              <a
+                href="#"
+                class="btn btn-outline-light btn-sm rounded-circle p-2"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href="#"
+                class="btn btn-outline-light btn-sm rounded-circle p-2"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a
+                href="#"
+                class="btn btn-outline-light btn-sm rounded-circle p-2"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4">
+            <h6 class="fw-bold text-warning mb-3">Quick Links</h6>
+            <ul
+              class="list-unstyled text-white-50 small d-flex flex-column gap-2"
+            >
+              <li>
+                <a href="#home" class="text-white-50 text-decoration-none"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="#menu" class="text-white-50 text-decoration-none"
+                  >Full Menu</a
+                >
+              </li>
+              <li>
+                <a href="#specials" class="text-white-50 text-decoration-none"
+                  >Chef Specials</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#reservation"
+                  class="text-white-50 text-decoration-none"
+                  >Reservations</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <h6 class="fw-bold text-warning mb-3">Opening Hours</h6>
+            <ul
+              class="list-unstyled text-white-50 small d-flex flex-column gap-2"
+            >
+              <li>Monday - Friday: 10:00 AM - 11:00 PM</li>
+              <li>Saturday - Sunday: 09:00 AM - Midnight</li>
+              <li class="text-success">
+                <i class="bi bi-dot"></i> Delivery open 7 days a week
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <h6 class="fw-bold text-warning mb-3">Newsletter</h6>
+            <p class="text-white-50 small mb-3">
+              Subscribe to get secret seasonal discount codes & menu updates.
+            </p>
+            <form
+              class="d-flex gap-2"
+              onsubmit="
+                event.preventDefault();
+                alert('Thank you for subscribing!');
+              "
+            >
+              <input
+                type="email"
+                class="form-control form-control-sm rounded-pill px-3"
+                placeholder="Enter your email"
+                required
+              />
+              <button
+                class="btn btn-warning btn-sm rounded-pill px-3 fw-bold"
+                type="submit"
+              >
+                Join
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div
+          class="text-center pt-4 border-top border-secondary text-white-50 small"
+        >
+          © 2026 Verde & Saffron. All rights reserved. Crafted with Bootstrap 5.
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+
+    <!-- Slide-out Cart Offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="cartOffcanvas">
+      <div class="offcanvas-header border-bottom">
+        <h5 class="offcanvas-title fw-bold text-dark">
+          <i class="bi bi-bag-heart-fill text-success me-2"></i> Your Fresh
+          Order
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+        ></button>
+      </div>
+      <div class="offcanvas-body d-flex flex-column">
+        <div id="cartItemsList" class="flex-grow-1 overflow-auto">
+          <!-- Rendered by JS -->
+        </div>
+
+        <div class="cart-summary pt-3 border-top mt-auto">
+          <div class="d-flex justify-content-between mb-2">
+            <span class="text-muted">Subtotal</span>
+            <span id="cartSubtotal" class="fw-bold">$0.00</span>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <span class="text-muted">Delivery Fee</span>
+            <span id="cartDeliveryFee" class="text-success fw-bold">FREE</span>
+          </div>
+          <div class="d-flex justify-content-between mb-3 fs-5">
+            <span class="fw-bold">Total</span>
+            <span id="cartTotal" class="fw-bolder text-success">$0.00</span>
+          </div>
+          <button
+            id="checkoutBtn"
+            class="btn btn-warning w-100 py-3 rounded-pill fw-bold text-dark"
+          >
+            Proceed to Checkout
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Slide-out Cart Offcanvas -->
+
+
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
